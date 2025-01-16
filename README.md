@@ -19,8 +19,8 @@ El programa lee datos de clientes desde un archivo secuencial (`CLIENTES.DAT`) y
 
 ## Instalar y Ejecutar
 
-brew install gnu-cobol
-cobc -x GestionSeguros.cbl -o GestionSeguros
+- brew install gnu-cobol
+- cobc -x GestionSeguros.cbl -o GestionSeguros
 
 ## Archivo de Datos de Ejemplo (`CLIENTES.DAT`)
 
