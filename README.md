@@ -17,6 +17,11 @@ El programa lee datos de clientes desde un archivo secuencial (`CLIENTES.DAT`) y
 - **`COBOL/GestionSeguros.cbl`**: Código fuente del programa COBOL.
 - **`COBOL/CLIENTES.DAT`**: Archivo de datos de ejemplo con información de clientes.
 
+## Instalar y Ejecutar
+
+brew install gnu-cobol
+cobc -x GestionSeguros.cbl -o GestionSeguros
+
 ## Archivo de Datos de Ejemplo (`CLIENTES.DAT`)
 
 ```txt
